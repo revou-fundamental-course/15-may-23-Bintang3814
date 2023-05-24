@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- perintah kode ini untuk memanggil file style.css kedalam file html -->
+</head>
+<body>
+    <header> <!-- Header/Cover dari websitenya sendiri -->
+        <span class="title">Katik</span> <span class="subtitle">Kalkulator Matematik</span>
+    </header>
+    <main>
+        <div class="card introduction"> <!-- Perintah untuk membuat ucapan selamat datang dan pembukaan mengenai website apa -->
+            <h1>Welcome to Katik!</h1> 
+            <p>Hai Sobat, Selamat datang di Katik!</p>
+            <p>Sebuah Web Apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
+            <br>
+            <div class="figure"> <!-- Div disini untuk link ke section luas persegi -->
+                <a href="#luas" class="button">Luas Persegi</a>
+            </div>
+            <div class="figure"> <!-- Div disini untuk link ke section keliling persegi -->
+                <a href="#keliling" class="button">Keliling Persegi</a>
+            </div>
+        </div>
+        <!-- Pada baris ini adalah section keliling persegi -->
+        <div id="luas">
+            <h2>Luas Persegi</h2>
+        </div>
+        <div class="card">
+            <div class="figure">
+                <img src="assets/persegi.jpg" alt="persegi" class="square">
+            </div>
+            <div>
+                <p>Rumus Luas Persegi yaitu:</p>
+                <p class="formula">L = S x S</p>
+
+                <p>Dimana :</p>
+                <p>L = Luas</p>
+                <p>S = Sisi</p>
+                <hr>
+            </div>
+            <div>
+                <h1>Hitung Luas Persegi</h1>
+                <input id="sisi-luas" name="sisi-luas" required>
+                <p id="rumus-luas"></p>
+                <p id="lsisi"></p>
+                <p id="reset-luas"><span id="output_luas"></span></p>
+                <div class="center">
+                    <button name="hitung-luas" onclick="hitungLuas()" class="submit">Hitung</button>
+                </div>
+                <div class="right">
+                    <button name="reset-luas" onclick="resetLuas()" class="reset">Reset</button>
+                </div>
+            </div>
+        </div>
+        <!-- End Line -->
+        <!-- Pada baris ini adalah section keliling persegi -->
+        <div id="keliling">
+            <h2>Keliling Persegi</h2>
+        </div>
+        <div class="card">
+            <div class="figure">
+                <img src="assets/persegi.jpg" alt="persegi" class="square">
+            </div>
+            <div>
+                <p>Rumus Luas Persegi yaitu:</p>
+                <p class="formula">K = 4 x S</p>
+
+                <p>Dimana :</p>
+                <p>K = Keliling</p>
+                <p>S = Sisi</p>
+                <hr>
+            </div>
+            <div>
+                <h1>Hitung Keliling Persegi</h1>
+                <input id="sisi-keliling" name="sisi-keliling" required>
+                <p id="rumus-keliling"></p>
+                <p id="ksisi"></p>
+                <p id="reset-keliling"><span id="output_keliling"></span></p>
+                <div class="center">
+                    <button name="hitung-keliling" onclick="hitungKeliling()" class="submit">Hitung</button>
+                </div>
+                <div class="right">
+                    <button name="reset-keliling" onclick="resetKeliling()" class="reset">Reset</button>
+                </div>
+            </div>
+        </div>
+        <!-- End Line -->
+    </main>
+    <footer>
+        <p>Copyright &#169; 2023, Bintang Ramadhan</p>
+    </footer>
+
+    <script src="js/script.js"></script> <!-- perintah kode ini untuk memanggil file script.js kedalam file html -->
+</body>
+</html>
