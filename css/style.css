@@ -1,0 +1,201 @@
+/* Perintah untuk import fonts melalui Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500;700&family=Quicksand:wght@400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0px 100px 0px 100px;
+    background: lightgray;
+}
+
+footer {
+    padding: 5px;
+    color: white;
+    background-color: #009ec6;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    background-color: #009ec6;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+header {
+    font-size: 20px;
+    padding: 30px;
+    background-color: #009ec6;
+    text-align: center;
+    color: white;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+main {
+    padding: 20px 50px 20px 50px;
+    background-color: white;
+}
+
+.button {
+    background-color: #009ec6;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 80%;
+}
+
+.card {
+    box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formula {
+    text-align: center;
+    font-weight: bold;
+}
+
+.figure {
+    margin-bottom: 10px;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formula {
+    text-align: center;
+    font-weight: bold;
+}
+
+.introduction p {
+    text-align: center;
+    margin: 0;
+}
+
+.right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.reset {
+    background-color: orange;
+    border: 0;
+    box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px 12px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.reset:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.subtitle {
+    font-size: 15px;
+    color: blanchedalmond;
+}
+
+.submit {
+    background-color: #009ec6;
+    border: 0;
+    box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px 12px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.submit:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.square {
+    width: 200px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 576px) {
+    body {
+        padding: 0% 10% 0% 10%;
+    }
+
+    h1 {
+        font-size: 100%;
+    }
+
+    h2 {
+        font-size: 75%;
+        padding: 20px;
+    }
+
+    p {
+        font-size: 50%;
+    }
+
+    .button {
+        padding: 5%;
+        font-size: 50%;
+    }
+
+    .figure {
+        margin-bottom: 0;
+        min-height: 30px;
+    }
+
+    .figure img {
+        width: 100px;
+    }
+
+    .subtitle {
+        font-size: 60%;
+    }
+}
